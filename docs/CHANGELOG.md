@@ -1,5 +1,80 @@
 # Tabler Documentation Changelog
 
+## 1.5.0
+
+### Minor Changes
+
+- 4a97921: Added `Accordion` documentation page with usage variants and Bootstrap `collapse` behavior examples.
+- 48dbd1e: Migrated build system from Rollup to Vite across all packages. Replaced `rollup.config.mjs` with `vite.config.mjs` and updated build scripts to use `vite build` instead of `rollup`. Build outputs remain identical (UMD and ESM formats) with no breaking changes for end users.
+- bd4e381: Added `Star Rating` documentation page with static and interactive rating examples based on existing classes.
+- 8af57f9: Added `Tag` documentation page with examples for icon, media, badge, checkbox, and list usage.
+
+### Patch Changes
+
+- 100a37b: Added background pattern utilities and documentation, including updated preview demos.
+- 46da1f7: Updated background patterns documentation with missing pattern variants, transparent utility usage, and size coverage.
+- 684f40e: Updated documentation to explain font sizing and system color CSS variables (`--tblr-primary-rgb`, `--tblr-secondary`, `--tblr-tertiary`, `--tblr-link-color`, `--tblr-gray-*`).
+- c430cfe: Updated UI component documentation to use singular file names and frontmatter fields (`title`, `summary`, `description`), and added redirects from legacy plural routes.
+- 826a073: Added `sitemap.xml` and `robots.txt` for the docs site, with a `sitemap` Eleventy collection and fixed docs layout title rendering outside production.
+- 9c78cf6: Fixed `.bg-gradient` utility conflicts to restore `from`/`via`/`to` gradient rendering and updated gradient documentation examples to match available classes.
+- a198b0c: Added Geist font family integration.
+- 43eee38: Added `Progress Step` component documentation and updated `ui/progress-steps.html` formatting for cleaner rendered output.
+- 08cad98: Updated `Progress Bar` documentation with new variants and improved `docs/example.html` layout support for full-width stacked previews.
+- 1489b13: Added `.prose` alias for markdown content and updated preview/docs references and redirects.
+- ab8009b: Fixed Docs search display in dark mode.
+- Updated dependencies [5e119d4]
+- Updated dependencies [100a37b]
+- Updated dependencies [059bae1]
+- Updated dependencies [9d5c83f]
+- Updated dependencies [5018aa9]
+- Updated dependencies [9c5d729]
+- Updated dependencies [ec94693]
+- Updated dependencies [c860288]
+- Updated dependencies [9d5c83f]
+- Updated dependencies [2dc7eda]
+- Updated dependencies [70ec683]
+- Updated dependencies [b1d49e9]
+- Updated dependencies [601e950]
+- Updated dependencies [b1d49e9]
+- Updated dependencies [9c78cf6]
+- Updated dependencies [c8b8b24]
+- Updated dependencies [6e656ad]
+- Updated dependencies [b1d49e9]
+- Updated dependencies [218b0c5]
+- Updated dependencies [8bc6fa7]
+- Updated dependencies [6849337]
+- Updated dependencies [e206d7a]
+- Updated dependencies [4ce08ca]
+- Updated dependencies [b8b63d7]
+- Updated dependencies [0106d6b]
+- Updated dependencies [a198b0c]
+- Updated dependencies [9432835]
+- Updated dependencies [9c5d729]
+- Updated dependencies [8d8727f]
+- Updated dependencies [5e119d4]
+- Updated dependencies [3aba62e]
+- Updated dependencies [0c79963]
+- Updated dependencies [301e778]
+- Updated dependencies [48dbd1e]
+- Updated dependencies [4ce08ca]
+- Updated dependencies [9a3361f]
+- Updated dependencies [9c5d729]
+- Updated dependencies [9c5d729]
+- Updated dependencies [9c5d729]
+- Updated dependencies [9c5d729]
+- Updated dependencies [1489b13]
+- Updated dependencies [41ed22a]
+- Updated dependencies [83ec6f8]
+- Updated dependencies [9c5d729]
+- Updated dependencies [736e604]
+- Updated dependencies [f8dee0a]
+- Updated dependencies [9c5d729]
+- Updated dependencies [70ec683]
+- Updated dependencies [666ccd6]
+- Updated dependencies [e3d86c5]
+- Updated dependencies [9d5c83f]
+  - @tabler/core@1.5.0
+
 ## 1.4.0
 
 ### Patch Changes
